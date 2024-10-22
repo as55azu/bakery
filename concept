@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo/fav.svg" type="image/svg+xml">
+    <link rel="icon alternate" href="img/logo/fav.png" type="image/png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:site_name" content="Bakery mofu">
+    <meta property="og:title" content="Bakery mofu">
+    <meta property="og:description" content="住宅街のなかにある、みんなが集うベーカリーショップ">
+    <meta property="og:image" content="https://example.com/img/logo/ogp/jpg">
+    <meta property="og:image:alt" content="Bakery mofu">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <title>Concept | Bakery mofu</title>
+  </head>
+  <body class="subPage">
+    <header>
+      <h1>
+        <span>concept</span>
+      </h1>
+      <nav class="gMenu">
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="concept.html">concept</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="info.html">info</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>当店について</h2><br class="onlySP">
+        <p class="lead">
+          気軽に寄れる、まちのパン屋さん。<br>
+          いつでも、手軽に。<br>
+          おいしいだけでなく、「安全・安心」を。
+        </p>
+        <section class="conceptDetailSec">
+          <h3>Healthy</h3>
+          <p class="photo">
+            <img src="img/ccp01.jpg" alt="">
+          </p>
+          <p class="text">
+            九州産の小麦を100％使用。<br>
+            その他の素材も「安全・安心」にこだわって選んでいます。
+          </p>
+        </section>
+        <section class="conceptDetailSec reverse">
+          <h3>Casual</h3>
+          <p class="photo">
+            <img src="img/ccp02.jpg" alt="">
+          </p>
+          <p class="text">
+            住宅街のなかにあるので、場所がわかりにくいかもしれません。<br>
+            朝、目が覚めて、「散歩がてら行ってみようかな」と思える<br>
+            地域密着型のお店を目指しています。
+          </p>
+        </section>
+        <section class="conceptDetailSec">
+          <h3>Eat-in</h3>
+          <p class="photo">
+            <img src="img/ccp03.jpg" alt="">
+          </p>
+          <p class="text">
+            イートインスペースやテラスをご利用いただけます。<br>
+            商品お買い上げの方には、コーヒーをサービスしています。<br>
+            キッズスペースもございます。
+          </p>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <img src="img/logo/footer.svg" alt="">
+      </p>
+    </footer>
+  </body>
+</html>
