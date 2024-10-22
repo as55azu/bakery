@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo/fav.svg" type="image/svg+xml">
+    <link rel="icon alternate" href="img/logo/fav.png" type="image/png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:site_name" content="Bakery mofu">
+    <meta property="og:title" content="Bakery mofu">
+    <meta property="og:description" content="住宅街のなかにある、みんなが集うベーカリーショップ">
+    <meta property="og:image" content="https://example.com/img/logo/ogp/jpg">
+    <meta property="og:image:alt" content="Bakery mofu">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <title>menu | Bakery mofu</title>
+  </head>
+  <body class="subPage">
+    <header>
+      <h1>
+        <span>menu</span>
+      </h1>
+      <nav class="gMenu">
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="concept.html">concept</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="info.html">info</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>安全・安心なものを</h><br class="onlySP">毎日食べてほしい</h2>
+        <p class="lead">
+          こだわった原材料で、毎日手作り。<br>
+          季節のものを取り入れて<br>
+          いつ来ても新鮮で楽しい時間をご提供します。
+        </p>
+        <section class="menuDetailSec">
+          <h3>Standard</h3>
+          <p>定番商品</p>
+          <ul class="menuList">
+            <li><img src="img/menustd01.jpg" alt=""></li>
+            <li><img src="img/menustd02.jpg" alt=""></li>
+            <li><img src="img/menustd03.jpg" alt=""></li>
+            <li><img src="img/menustd04.jpg" alt=""></li>
+          </ul>
+        </section>
+        <section class="menuDetailSec">
+          <h3>Savoury</h3>
+          <p>惣菜パン</p>
+          <ul class="menuList">
+            <li><img src="img/menusav01.jpg" alt=""></li>
+            <li><img src="img/menusav02.jpg" alt=""></li>
+            <li><img src="img/menusav03.jpg" alt=""></li>
+            <li><img src="img/menusav04.jpg" alt=""></li>
+          </ul>
+        </section>
+        <section class="menuDetailSec">
+          <h3>Seasonal</h3>
+          <p>期間限定メニュー</p>
+          <ul class="menuList">
+            <li><img src="img/menusea01.jpg" alt=""></li>
+            <li><img src="img/menusea02.jpg" alt=""></li>
+            <li><img src="img/menusea03.jpg" alt=""></li>
+            <li><img src="img/menusea04.jpg" alt=""></li>
+          </ul>
+        </section>
+        <section class="menuQ">
+        <h2>ご希望を</h><br class="onlySP">お聞かせください</h2>
+        <p class="lead">
+          「mofuにあるといいのに…！」<br>
+          新商品や、店内設備のご要望など<br>
+          ぜひ教えてください。
+        </p>
+        <form action="" method="">
+          <p>
+            お名前<input type="text" name="user_name">
+          </p>
+          <p>
+            メールアドレス<input type="email" name="user_mail">
+          </p>
+          <p>
+            ご要望は
+            <select name="user_type">
+              <option value="新商品">新商品</option>
+              <option value="店内設備">店内設備</option>
+              <option value="その他ご意見">その他ご意見</option>
+            </select>
+          </p>
+          <p>
+            詳細をどうぞ
+            <textarea name="message"></textarea>
+          </p>
+          <p class="submitBtn">
+            <input type="submit" value="Send" class="ffJosefin">
+          </p>
+        </form>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <img src="img/logo/footer.svg" alt="">
+      </p>
+    </footer>
+  </body>
+</html>
